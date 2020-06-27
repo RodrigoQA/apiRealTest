@@ -1,0 +1,9 @@
+
+k	java:S1173"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Óõë‰øÿÿÿÿ
+k	java:S117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…ù½Åüÿÿÿÿ
+f	java:S117S"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®é•
+f	java:S117["QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ú§Š
+s	java:S116"YRename this field "data_transacao" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û’¡‹şÿÿÿÿ
+n	java:S116	"YRename this field "data_pagamento" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñÔéõ
+m	java:S116"SRename this field "conta_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°›âıÿÿÿÿ
+j	java:S116"URename this field "usuario_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ¸ø¦

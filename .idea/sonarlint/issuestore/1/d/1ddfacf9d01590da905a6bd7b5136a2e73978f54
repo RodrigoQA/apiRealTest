@@ -1,0 +1,16 @@
+
+f	java:S117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Å»¦î
+g
+java:S1128"LRemove this unused import 'io.restassured.RestAssured.requestSpecification'.( ƒÎ»ÿÿÿÿÿ
+H
+java:S1128"2Remove this unused import 'org.junit.BeforeClass'.(´ª«ê
+E
+java:S1128
+"*Remove this unused import 'java.util.Map'.(¼è½Òþÿÿÿÿ
+I
+java:S1128	".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ
+R
+java:S1128"7Remove this unused import 'io.restassured.RestAssured'.(ºÉµ±ùÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(”Ÿ¹ò
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(­ÝÙ¾ûÿÿÿÿ
+N	java:S106-"9Replace this use of System.out or System.err by a logger.(‡µž¢
