@@ -29,7 +29,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="C:\Program Files\Apache\Maven\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Users\rodrigo.lima\Desktop\Documents\vsc-posVenda\bin;C:\Users\rodrigo.lima\Desktop\Documents\vsc-posVenda\vendor\bin;C:\Users\rodrigo.lima\Desktop\Documents\vsc-posVenda\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\rodrigo.lima\Desktop\Documents\vsc-posVenda\vendor\conemu-maximus5;C:\Users\rodrigo.lima\Desktop\Documents\vsc-posVenda\vendor\conemu-maximus5\ConEmu;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files\Git\cmd;C:\Program Files\Apache\Maven\bin;C:\Tools\selenium;C:\Program Files\nodejs\;C:\Users\rodrigo.lima\AppData\Local\Android\Sdk\tools;C:\Users\rodrigo.lima\AppData\Local\Android\Sdk\tools\bin;C:\Users\rodrigo.lima\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Ruby25-x64\bin;C:\Ruby25-x64\bin;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.3.3\bin;&quot;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Users\rodrigo.lima\AppData\Local\Microsoft\WindowsApps&quot;;C:\Users\rodrigo.lima\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\rodrigo.lima\AppData\Roaming\npm;C:\Program Files\Docker Toolbox;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\rodrigo.lima\Desktop\Documents\vsc-posVenda;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files\Git\cmd;C:\Program Files\Apache\Maven\bin;C:\Tools\selenium;C:\Program Files\nodejs\;C:\Users\rodrigo.lima\AppData\Local\Android\Sdk\tools;C:\Users\rodrigo.lima\AppData\Local\Android\Sdk\tools\bin;C:\Users\rodrigo.lima\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Ruby25-x64\bin;C:\Ruby25-x64\bin;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.3.3\bin;&quot;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Users\rodrigo.lima\AppData\Local\Microsoft\WindowsApps&quot;;;C:\Users\rodrigo.lima\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\rodrigo.lima\AppData\Roaming\npm;C:\Program Files\Docker Toolbox;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\bin;;."/>
     <property name="maven.conf" value="C:\Program Files\Apache\Maven\bin\../conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -65,8 +65,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="testes.testBasic.UserXMLTest" name="PesquisasAvancadasComXPath" time="0.341"/>
-  <testcase classname="testes.testBasic.UserXMLTest" name="PesquisasAvancadasCOmXML" time="0.385"/>
-  <testcase classname="testes.testBasic.UserXMLTest" name="TrabalhandoComXML" time="0.349"/>
-  <testcase classname="testes.testBasic.UserXMLTest" name="PesquisasAvancadasComXMLEJava" time="0.359"/>
+  <testcase classname="testes.testBasic.UserXMLTest" name="PesquisasAvancadasComXPath" time="0.393"/>
+  <testcase classname="testes.testBasic.UserXMLTest" name="PesquisasAvancadasCOmXML" time="0.393"/>
+  <testcase classname="testes.testBasic.UserXMLTest" name="TrabalhandoComXML" time="0.366"/>
+  <testcase classname="testes.testBasic.UserXMLTest" name="PesquisasAvancadasComXMLEJava" time="0.282"/>
 </testsuite>

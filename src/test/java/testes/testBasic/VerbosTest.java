@@ -85,7 +85,7 @@ public class VerbosTest {
 		then().
 		log().all().
 		statusCode(400);
-		//body("error", containsString("Name é um atributo obrigatório"));
+		//body("error", containsString("Name ï¿½ um atributo obrigatï¿½rio"));
 
 		}
 		

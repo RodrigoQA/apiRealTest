@@ -104,7 +104,7 @@ public void PesquisasAvancadasComXPath() {
 	body(hasXPath("//user[@id= '1']")).
 	body(hasXPath("//name[text() = 'Luizinho']/../../name", is("Ana Julia"))).
 	body(hasXPath("//name[text() ='Ana Julia']/following-sibling::filhos", allOf(containsString("Luizinho"),containsString("Zezinho")))).
-	body(hasXPath("/users/user/name", is("João da Silva"))).
+//	body(hasXPath("/users/user/name", is("João da Silva"))).
     body(hasXPath("//name", is("João da Silva"))). //buscando pelo primeiro nome da page
     body(hasXPath("/users/user[2]/name", is("Maria Joaquina"))). //buscando pelo segundo nome da page
     body(hasXPath("count(/users/user/name[contains(.,'n')])", is("2"))).  //buscando todos q contem a letra n
