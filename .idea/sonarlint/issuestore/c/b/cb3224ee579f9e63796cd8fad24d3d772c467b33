@@ -1,19 +1,0 @@
-
-T
-squid:S106^"9Replace this use of System.out or System.err by a logger.(Ü¶¹­ùÿÿÿÿ
-O
-squid:S106>"9Replace this use of System.out or System.err by a logger.(´ÊÊŞ
-Ssquid:UselessImportCheck"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ
-Vsquid:UselessImportCheck"2Remove this unused import 'org.junit.BeforeClass'.(´ª«ê
-bsquid:S1192"LDefine a constant instead of duplicating this literal "/transacoes" 3 times.(™ä¹X
-usquid:UselessImportCheck"LRemove this unused import 'io.restassured.RestAssured.requestSpecification'.( ƒÎ»ÿÿÿÿÿ
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(«ö’†şÿÿÿÿ
-`squid:UselessImportCheck"7Remove this unused import 'io.restassured.RestAssured'.(ºÉµ±ùÿÿÿÿ
-T
-squid:S106'"9Replace this use of System.out or System.err by a logger.(ÔÙ‹ÿÿÿÿÿ
-gsquid:CommentedOutCodeLinel"<This block of commented-out lines of code should be removed.(†Ãµùÿÿÿÿ
-Wsquid:UselessImportCheck".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ
-O
-squid:S106Q"9Replace this use of System.out or System.err by a logger.(”ÿØ£
-isquid:S00117_"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óÉ‘‘

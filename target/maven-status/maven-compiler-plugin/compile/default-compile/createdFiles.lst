@@ -1,0 +1,4 @@
+br\com\restassured\core\BaseTest.class
+br\com\restassured\utils\DataUtils.class
+br\com\restassured\utils\GetIdUtils.class
+br\com\restassured\core\Constantes.class
