@@ -33,3 +33,7 @@ O
 src/test/java/suite/Runner.java,1\8\187c9a7c8bcbdef39916041308a1420cb8124823
 `
 0src/test/java/testes/testBasic/UserJsonTest.java,f\3\f3b7063feb2c57485625bd65a5613d8d550a16fc
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+`
+0src/test/java/testes/testBasic/encodingTest.java,4\e\4e749434df5221fc91c7833a65757e67ece01048
