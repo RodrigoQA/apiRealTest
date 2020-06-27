@@ -61,8 +61,8 @@ public class UserJsonTest {
 		given().
 		when().get("http://restapi.wcaquino.me/users/4").
 		then().
-	    statusCode(404);
-//		body("error", is("Usuário inexistente"));
+	    statusCode(404).
+		body("error", is("Usuário inexistente"));
 		
 }
 	
@@ -97,20 +97,19 @@ public void TestesVerificacoesAvancadas() {
 	body("age.findAll{it <= 25 && it >20 }.size()", is(1)). //Retorna total de idade que estao entre 21 a 25 anos
 	body("findAll{it.age <= 25 && it.age > 20}.name", hasItem("Maria Joaquina")). // retorna o nome q esta entre 21 a 25 anos
 	body("findAll{it.age <= 25}[0].name", is("Maria Joaquina")).  // 0 buscar do inicio da lista para baixo(ordem crescente)
-//	body("findAll{it.age <= 25}[-1].name", is("Ana Júlia")).  //-1 busca do fim da lista para o topo(ordem decrecente)
+	body("findAll{it.age <= 25}[-1].name", is("Ana Júlia")).  //-1 busca do fim da lista para o topo(ordem decrecente)
 	body("find{it.age <= 25}.name", is("Maria Joaquina")).  //find busca sempre o primeiro item, msm tendo mais de um (Em ordem crescente)
-	//body("findAll{it.name.length() > 10}.name", hasItems("Maria Joaquina", "João da Silva")). //busca por nomes com + de 10 caracteres
-//	body("name.collect{it.toUpperCase()}",hasItem("JOÃO DA SILVA")). //transforma em caracter maiusculos
+	body("findAll{it.name.length() > 10}.name", hasItems("Maria Joaquina", "João da Silva")). //busca por nomes com + de 10 caracteres
+	body("name.collect{it.toUpperCase()}",hasItem("JOÃO DA SILVA")). //transforma em caracter maiusculos
 	body("age.collect{it * 2 }", hasItems(60,50,40)). // mutilplicando a idade por 2
 	body("id.max()",is(3)). //buscar pelo id maior
 	body("age.max()", is(30)).//buscar pela idade maior
 	body("id.min()", is(1)). //buscar pelo id menor
 	body("age.min()", is(20)). //buscar pela idade menor
 	body("salary.min()",is(1234.5678f)). //buscar pelo salario menor ("f" indica que eh do tipo float)
-	body("salary.findAll{it != null}.sum()",is(closeTo(3734.5678f, 0.01)));//com o closeTo, resolve!(ele da um desconto tanto pra + ou pra -)
-
-	//body("salary.sum()",is(3734.5678f))   devido ter um salary vazio na lista, nao funciona
+	// body("salary.sum()",is(3734.5678f))   devido ter um salary vazio na lista, nao funciona
 	//body("findAll{it.salary =! null}.sum()", is(3734.5678f)). //isso resolve o problema acima, mas agora tem o erro no calculo,(decimos de diferen?a)
+	body("salary.findAll{it != null}.sum()",is(closeTo(3734.5678f, 0.01))); //com o closeTo, resolve!(ele da um desconto tanto pra + ou pra -)
 
 	
 	

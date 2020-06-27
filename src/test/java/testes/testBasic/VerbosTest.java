@@ -84,8 +84,8 @@ public class VerbosTest {
 		
 		then().
 		log().all().
-		statusCode(400);
-		//body("error", containsString("Name � um atributo obrigat�rio"));
+		statusCode(400).
+		body("error", containsString("Name é um atributo obrigatório"));
 
 		}
 		
