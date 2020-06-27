@@ -100,7 +100,7 @@ public void TestesVerificacoesAvancadas() {
 //	body("findAll{it.age <= 25}[-1].name", is("Ana Júlia")).  //-1 busca do fim da lista para o topo(ordem decrecente)
 	body("find{it.age <= 25}.name", is("Maria Joaquina")).  //find busca sempre o primeiro item, msm tendo mais de um (Em ordem crescente)
 	//body("findAll{it.name.length() > 10}.name", hasItems("Maria Joaquina", "João da Silva")). //busca por nomes com + de 10 caracteres
-	body("name.collect{it.toUpperCase()}",hasItem("JOÃO DA SILVA")). //transforma em caracter maiusculos
+//	body("name.collect{it.toUpperCase()}",hasItem("JOÃO DA SILVA")). //transforma em caracter maiusculos
 	body("age.collect{it * 2 }", hasItems(60,50,40)). // mutilplicando a idade por 2
 	body("id.max()",is(3)). //buscar pelo id maior
 	body("age.max()", is(30)).//buscar pela idade maior
